@@ -1,0 +1,36 @@
+.para {
+  color: #223a5f;
+  font-size: 24px;
+  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+.score {
+  margin-top: 0px;
+  font-weight: bolder;
+  font-size: 36px;
+  color: #223a5f;
+}
+.rules-btn {
+  align-self: flex-end;
+
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media screen and (min-width: 567px) {
+  .rules-btn {
+    margin-right: 140px;
+  }
+}
+.img {
+  width: 100%;
+}
+.close-btn {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
